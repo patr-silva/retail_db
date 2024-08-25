@@ -1,4 +1,3 @@
-
 INSERT INTO customers(customer_id, name, email) VALUES 
     (1, 'Alex Albon', 'aa@williams.com'),
     (2, 'Oscar Piastri', 'op@maclaren'),
