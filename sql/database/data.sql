@@ -1,8 +1,8 @@
 INSERT INTO customers(customer_id, name, email) VALUES 
     (1, 'Alex Albon', 'aa@williams.com'),
-    (2, 'Oscar Piastri', 'op@maclaren'),
+    (2, 'Oscar Piastri', 'op@mclaren'),
     (3, 'Carlos Sainz', 'cs@ferrari.com'),
-    (4, 'Lando Noris', 'ln@maclaren.com');
+    (4, 'Lando Noris', 'ln@mclaren.com');
 
 INSERT INTO staff(staff_id, name, role) VALUES
     (50, 'John Smith', 'support'),
