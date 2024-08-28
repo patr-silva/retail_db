@@ -1,5 +1,5 @@
 <div align="center">
-<h1 align="center">Retail DB Exercise </h1>
+<h1 align="center">Retail DB Exercise 🛒</h1>
 <p align="center">This project is a SQL-based e-commerce database simulating online shopping, managing internal staff, partners, customers, products, orders, deliveries, reviews, and payments.</p>
 <p>
 ⚠️ This project is currently under development and will continue to be refined to enhance both functionality and user experience.
@@ -14,10 +14,6 @@
     * [Built with](#built)
 2. [Features](#features)
 3. [Database Schema](#schema)
-2. [Installation](#installation)
-   * [Installation Steps](#installation)
-   * [Installation Steps](#installation)
-3. [Screenshots](#screenshots)
 
 <h1 id="introduction">Introduction</h1>
 <h2 id="about">About the project</h2>
@@ -53,8 +49,6 @@ This project serves as an exercise to enhance my MySQL skills. While the databas
 * Manages external partners (suppliers and delivery services).
 
 <h1 id="schema">Database Schema</h1>
-
-# Database Schema
 
 ## Table: customers
 | Column      | Data Type  | Constraints        |
@@ -122,4 +116,3 @@ This project serves as an exercise to enhance my MySQL skills. While the databas
 | payment_id  | INT        | PRIMARY KEY        |
 | order_id    | INT        | FOREIGN KEY (order_id) REFERENCES orders(order_id) |
 | status      | ENUM       | NOT NULL, ENUM('successful', 'unsuccessful', 'returned', 'refunded') |
-
